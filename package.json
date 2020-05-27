@@ -1,0 +1,69 @@
+{
+  "name": "@memorres/react-native-applesignin",
+  "title": "React Native Applesignin",
+  "version": "1.0.0",
+  "description": "A React Native package for apple login",
+  "main": "index.js",
+  "files": [
+    "README.md",
+    "android",
+    "index.js",
+    "ios",
+    "react-native-applesignin.podspec"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MemorresR/react-native-applesignin.git",
+    "baseUrl": "https://github.com/MemorresR/react-native-applesignin"
+  },
+  "keywords": [
+    "react",
+    "native",
+    "react-native",
+    "applesigin",
+    "siginapple",
+    "appleauth",
+    "apple-signin",
+    "react-native-signin",
+    "react-native-apple-signin",
+    "react-native-apple-login",
+    "react-native-applelogin"
+  ],
+  "author": {
+     "name": "Memorres",
+    "email": "ranjana@memorres.com"
+  },
+  "contributors": [
+    {
+      "name": "Ranjana Thanvi",
+      "email": "ranjana@memorres.com"
+    },
+    {
+      "name": "Anand Thanvi",
+      "email": "anand.thanvi@memorres.com"
+    },
+    {
+      "name": "Deepak Jain",
+      "email": "deepak@memorres.com"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+      "url": "https://github.com/MemorresR/react-native-applesignin/issues"
+  },
+  "homepage": "https://github.com/MemorresR/react-native-applesignin",
+  "licenseFilename": "LICENSE",
+  "readmeFilename": "README.md",
+  "peerDependencies": {
+    "react": "^16.8.1",
+    "react-native": ">=0.60.0-rc.0 <1.0.x",
+    "jwt-decode": "^2.2.0"
+  },
+  "devDependencies": {
+    "react": "^16.9.0",
+    "react-native": "^0.61.5"
+  }
+}
