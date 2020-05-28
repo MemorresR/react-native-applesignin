@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.authors      = { "Memorres" => "ranjana@memorres.com" }
   s.platforms    = { :ios => "9.0" }
   s.source       = { :git => "https://github.com/MemorresR/react-native-applesignin.git", :tag => "#{s.version}" }
-  s.source_files = "ios/Applesignin/*.{h,c,m,swift}"
+  s.source_files = "ios/**/*.{h,c,m,swift}"
   s.requires_arc = true
   s.dependency "React"
 end
