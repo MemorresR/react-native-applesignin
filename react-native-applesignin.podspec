@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.description  = <<-DESC
                   react-native-applesignin
                    DESC
-  s.homepage     = "https://github.com/github_account/react-native-applesignin"
+  s.homepage     = "https://github.com/MemorresR/react-native-applesignin"
   s.license    = { :type => "MIT", :file => "LICENSE" }
   s.authors      = { "Memorres" => "ranjana@memorres.com" }
   s.platforms    = { :ios => "9.0" }
