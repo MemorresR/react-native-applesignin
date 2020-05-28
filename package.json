@@ -1,7 +1,7 @@
 {
   "name": "@memorres/react-native-applesignin",
   "title": "React Native Applesignin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A React Native package for apple login",
   "main": "index.js",
   "files": [
