@@ -5,6 +5,9 @@ To install the module, run the following command in your project directory:
 `npm install @memorres/react-native-applesignin --save`
 or
 `yarn add @memorres/react-native-applesignin`
+
+**IMPORTANT:** There are additional steps required for `jwt-decode`. Check the [this guide](https://www.npmjs.com/package/jwt-decode) to complete the installation.
+
 ### Mostly automatic installation
 `react-native link @memorres/react-native-applesignin`
 ### Manual installation
@@ -12,7 +15,7 @@ or
 ### Pods
 1. Add the line below to your `Podfile`.
     ```pod
-    pod 'react-native-applesignin', :path => '../node_modules/@memorres/react-native-applesignin'`
+    pod 'react-native-applesignin', :path => '../node_modules/@memorres/react-native-applesignin'
     ```
 2. Run `pod install` in your iOS project directory.
 ### Manually
@@ -32,7 +35,7 @@ import Applesignin, {
   AppleButtonWhiteContinue,
   AppleButtonWhiteSignin,
   DecodeToken,
-} from 'react-native-applesignin';
+} from '@memorres/react-native-applesignin';
 export default class App extends React.Component{
   appleSignIn = (response) => {
     console.log(response);
@@ -53,7 +56,7 @@ const styles = StyleSheet.create({
   appleBtn: { height: 44, width: 200 }
 });
 2: Create custom button
-import Applesignin from 'react-native-applesignin';
+import Applesignin from '@memorres/react-native-applesignin';
    Applesignin.requestAppleUser({
     requestedScopes: [Applesignin.Scope.FULL_NAME, Applesignin.Scope.EMAIL],
     }).then((response) => {
@@ -65,7 +68,7 @@ import Applesignin from 'react-native-applesignin';
 import Applesignin,{DecodeToken} from 'react-native-applesignin';
 const decoded = DecodeToken(result.identityToken);
 4: logout process
-import Applesignin from 'react-native-applesignin';
+import Applesignin from '@memorres/react-native-applesignin';
 try {
     const response = await Applesignin.requestAppleUser({
         requestedScopes: [Applesignin.Operation.LOGOUT
