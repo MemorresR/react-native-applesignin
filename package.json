@@ -1,7 +1,7 @@
 {
   "name": "@memorres/react-native-applesignin",
   "title": "React Native Applesignin",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "A React Native package for apple login",
   "main": "index.js",
   "files": [
@@ -33,7 +33,7 @@
     "react-native-applelogin"
   ],
   "author": {
-     "name": "Memorres",
+    "name": "Memorres",
     "email": "ranjana@memorres.com"
   },
   "contributors": [
@@ -52,7 +52,7 @@
   ],
   "license": "MIT",
   "bugs": {
-      "url": "https://github.com/MemorresR/react-native-applesignin/issues"
+    "url": "https://github.com/MemorresR/react-native-applesignin/issues"
   },
   "homepage": "https://github.com/MemorresR/react-native-applesignin",
   "licenseFilename": "LICENSE",
